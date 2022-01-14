@@ -1,0 +1,273 @@
+@font-face {
+  font-family: "tt0009m";
+  src: url(./fonts/tt0009m.ttf);
+}
+@font-face {
+  font-family: "tt0010m";
+  src: url(./fonts/tt0010m.ttf);
+} 
+
+body {
+  font-family: "tt0009m" !important;
+  font-size: 1rem !important;
+  margin: 0 !important;
+  background-color: #ECECEC !important;
+}
+
+.peso-regular{
+  font-family: "tt0009m";
+}
+
+.peso-bold{
+  font-family: "tt0010m";
+}
+
+.tamaño-grande{
+  font-size: 1.7rem;
+}
+
+.tamaño-medio{
+  font-size: 1rem ;
+}
+
+.tamaño-chico{
+  font-size: 0.75rem;
+}
+
+.color-negro-fondo{
+  background-color:#3C3C3A
+}
+
+.color-negro{
+  color:#3C3C3A
+}
+
+.color-gris{
+  color:#ECECEC;
+}
+
+.color-gris-tenue{
+  color:#ececec6b;
+
+}
+
+.color-gris-fondo{
+  background-color: #ECECEC;
+}
+
+.color-gris-oscuro{
+  background-color: #606060;
+}
+
+
+.color-vino{
+  color: #870D2A !important;
+}
+
+.color-vino-fondo{
+  background-color:#870D2A ;
+}
+
+.color-negrogris-fondo{
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(56,57,58,1) 100%);
+}
+
+.container{
+  max-width: 65% !important;
+}
+
+@media (max-width: 492px) {
+  .container{
+    max-width: 85% !important;
+  }
+}
+
+.z-index-1{
+  z-index: -1 !important;
+}
+.sin-sub {
+  text-decoration: none;
+}
+
+/* Navbar */ 
+
+.navbar-light .color-negro{
+  color: #3C3C3A !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+  color: #870D2A !important;
+}
+
+.logo-nav{
+  width: 17%;
+  transform: scale(2.5,2.5) translate(0,20px) ; 
+}
+
+.index{
+  z-index: 2 !important;
+}
+
+@media (max-width: 1400px) {
+  .logo-nav{
+    transform: scale(2.5,2.5) translate(0,15px) ; 
+  }
+}
+@media (max-width: 1000px) {
+  .logo-nav{
+    width: 40px;
+    transform: scale(2.5,2.5) translate(0,10px) ; 
+
+  }
+}
+
+.navbar-toggler {
+  border-color: #3C3C3A !important;
+  border-radius: 10px !important;
+  border-width: 2px !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url(https://res.cloudinary.com/dkz/image/upload/v1635455389/CGA/hamburguesa-negra_zhahwb.png) !important;
+}
+
+.navbar-collapse{
+  margin-top: auto;
+}
+.dropdown .dropdown-item{
+  color:#ECECEC
+}
+
+/* Noticias */
+
+.card-propiedad{
+  margin-top: 30px;
+  max-width: 350px !important; 
+  min-height: 400px !important;
+
+}
+
+.card-propiedad .card{
+  border-radius: 15px !important;
+
+}
+.card-propiedad .card-img-top{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-propiedad .card-body{
+  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+}
+.card-propiedad .card-body p{
+  margin-bottom:0 ;
+}
+
+/* Noticia detallada*/
+.tamaño-noticia{
+  width: 75%;
+} 
+@media (max-width: 492px) {
+  .tamaño-noticia{
+    width: 100%;
+  }
+}
+
+.sombra{
+  box-shadow: 7px 6px 6px rgba(0, 0, 0, 50);
+}
+
+/* Colaboradores / partners */
+.card-partner .card{
+  /* border-width: 20px !important; */
+  border-radius: 15px !important;
+  /* border: 10px; */
+
+}
+.card-partner .card-img-top{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+}
+
+.card-partner .card-body{
+  /* border-width: 10px !important; */
+  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+}
+
+/*Css aplicado a Contacto*/
+
+.imagen-fondo-contacto{
+  background-image: url(https://res.cloudinary.com/dkz/image/upload/v1635451845/CGA/home/Recurso_14_gcerki.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bordes{
+  border-radius: 25px;
+}
+
+.form{
+  width: 700px;
+}
+@media (max-width: 768px) {
+  .form{
+    width: 450px;
+  }
+}
+
+@media (max-width: 495px) {
+  .form{
+    width: 400px;
+  }
+}
+@media (max-width: 445px) {
+  .form{
+    width: 340px;
+  }
+}
+@media (max-width: 407px) {
+  .form{
+    width: 280px;
+  }
+}
+
+/*Iconos beneficios*/
+@media (max-width: 450px) {
+  .icono{
+      width: 60px !important
+      ;
+  }
+  .letra-icono{
+      font-size: 12px;
+  }
+}
+.icono{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 120px;
+}; 
+
+/*Beneficios*/
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/*Convenio*/
+.icono-convenios{
+  width: 300px;
+}
+@media (max-width: 450px) {
+  .icono-convenios{
+    width: 150px;
+  }
+}
+
+
+/*Footer*/
+
